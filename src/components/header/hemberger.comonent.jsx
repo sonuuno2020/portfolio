@@ -25,7 +25,7 @@ const Hamberger = () => {
         onClose={handleClose}
       >
         <MenuItem onClick={handleClose}>
-          <Button href="/portfolio" color="secondary">
+          <Button href="/" color="secondary">
             Home
           </Button>
         </MenuItem>
