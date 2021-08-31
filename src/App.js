@@ -14,10 +14,10 @@ const App = () => {
     <div>
       <Header />
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/portfolio/about" component={AboutPage} />
-        <Route path="/portfolio/contact" component={ContactPage} />
-        <Route path="/portfolio/project" component={ProjectPage} />
+        <Route  path="/portfolio" component={HomePage} />
+        <Route path="/about" component={AboutPage} />
+        <Route path="/contact" component={ContactPage} />
+        <Route path="/project" component={ProjectPage} />
       </Switch>
     </div>
   );
