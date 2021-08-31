@@ -34,7 +34,7 @@ const Header = () => {
       ) : (
         <AppBar className={classes.main}>
           <Toolbar className={classes.root}>
-            <Button className={classes.margin} href="/">
+            <Button className={classes.margin} href="/portfolio">
               Home
             </Button>
             <Button className={classes.margin} href="/about">
