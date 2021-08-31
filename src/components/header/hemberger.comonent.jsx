@@ -25,12 +25,12 @@ const Hamberger = () => {
         onClose={handleClose}
       >
         <MenuItem onClick={handleClose}>
-          <Button href="/portfolio" color="secondary">
+          <Button href="/" color="secondary">
             Home
           </Button>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Button href="/portfolio/about" color="secondary">
+          <Button href="/about" color="secondary">
             About
           </Button>
         </MenuItem>
@@ -43,12 +43,12 @@ const Hamberger = () => {
           </Button>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Button href="/portfolio/project" color="secondary">
+          <Button href="/project" color="secondary">
             Project
           </Button>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Button href="/portfolio/contact" color="secondary">
+          <Button href="/contact" color="secondary">
             Contact
           </Button>
         </MenuItem>

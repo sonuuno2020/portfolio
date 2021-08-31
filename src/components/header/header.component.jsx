@@ -34,10 +34,10 @@ const Header = () => {
       ) : (
         <AppBar className={classes.main}>
           <Toolbar className={classes.root}>
-            <Button className={classes.margin} href="/portfolio">
+            <Button className={classes.margin} href="/">
               Home
             </Button>
-            <Button className={classes.margin} href="/portfolio/about">
+            <Button className={classes.margin} href="/about">
               About
             </Button>
             <Button
@@ -46,10 +46,10 @@ const Header = () => {
             >
               Resume
             </Button>
-            <Button className={classes.margin} href="/portfolio/project">
+            <Button className={classes.margin} href="/project">
               Project
             </Button>
-            <Button className={classes.margin} href="/portfolio/contact">
+            <Button className={classes.margin} href="/contact">
               Contact
             </Button>
           </Toolbar>
